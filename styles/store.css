@@ -1,0 +1,29 @@
+.songs {
+    margin-top: 100px;
+}
+
+.song {
+    margin:10px;
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 10px;
+}
+
+select {
+    margin-top: 95px;
+    float: right;
+    width: 90px;
+    height: 90px;
+    background-color: aqua;
+    text-decoration: none;
+}
+
+songOne {
+
+    background-color: #e9cc2a;
+    width: 90px;
+    height: 90px;
+}
