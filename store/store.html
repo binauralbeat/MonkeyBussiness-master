@@ -7,37 +7,62 @@
     <title>TUNES</title>
     <link rel="stylesheet" href="../styles/artistSite.css">
     <link rel="stylesheet" href="/styles/store.css">
-    <link rel="stylesheet" href="/styles/dropdown.css">
+    <link rel="stylesheet" href="/styles/visualizer.css">
+    <link rel="stylesheet" href="/styles/visiualization.css">
 </head>
 <body>
 
-        <div class="sticky"id="nav">
-                <!-- <img src="logo.png" height="60px" width="60px"> -->
 
-    </div>
+
+    <div class="sticky"id="nav"></div>
 
     <div class="titleBack">
-            <h1 class="title">TUNES
-                <select id="selection">
-                  <option id="select" value=""></option>
-                  <option id="songOne" value="songs/moore_2.mp3"></option>
-                  <option value="songs/snow in march_10.mp3"></option>
-                </select>
-                <br/>
+            <h1 class="title">TUNES</h1>
+    </div>
 
-                <audio id="player" >
-                  <source id="mp3_src" src="/store/songs/moore_2.mp3" type="audio/mp3" />Your browser does not support the audio element.
-                </audio></h1>
-        </div>
+
+    <div class="bigContainer">
+
+                        <div class="playlist_1" id="selection">
+                                <audio id="audio_1" class="audiofile" src="songs/snow in march_10.mp3"></audio>
+                                <!-- <option class="tune" id="songTwo" value="songs/throw in the towel_4.mp3"></option>
+                                <option class="tune" id="songOne" value="songs/moore_2.mp3"></option>
+                                <option class="tune" id="songThree" value="songs/snow in march_10.mp3"></option> -->
+                        </div>
+
+
+                        <div class="playlist_2" id="selection_2" >
+                                <audio id="audio_2" src="songs/08 soft transmission.mp3"></audio>
+                                <!-- <option class="tune" id="songTwo" value="songs/08 soft transmission.mp3"></option>
+                                <option class="tune" id="songOne" value="songs/wading.mp3"></option>
+                                <option class="tune" id="songThree" value="songs/we will always miss you_5.mp3"></option> -->
+                        </div>
+
+                        <div class="playlist_3" id="selection_3">
+                                <audio id="audio_3" src="songs/throw in the towel_4.mp3"></audio>
+                                <!-- <option class="tune" id="songTwo" value="songs/you are turquoise.mp3"></option>
+                                <option class="tune" id="songOne" value="songs/soft_2.mp3"></option>
+                                <option class="tune" id="songThree" value="songs/mr underrock.mp3"></option> -->
+                        </div>
+
+                        <audio id="player" >
+                            <source id="mp3_src" src="/store/songs/moore_2.mp3" type="audio/mp3" />Your browser does not support the audio element.
+                        </audio>
+    </div>
+
+    <canvas id="webglcanvas"></canvas>
 
 
 </div>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="/scripts/playlist.js"></script>
-</script>
-
-    <script src="/scripts/nav.js"></script>
-    <!-- <script src="/scripts/dropdown.js"></script> -->
+<script src="/scripts/nav.js"></script>
+<script src="/scripts/visualize.js"></script>
+<script src="/scripts/visualization.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/p5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.dom.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.sound.min.js"></script>
 </body>
 </html>
 

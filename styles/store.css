@@ -12,18 +12,90 @@
     margin-left: 10px;
 }
 
-select {
-    margin-top: 95px;
-    float: right;
-    width: 90px;
-    height: 90px;
+.bigContainer {
+    position: absolute;
+    margin: 10px;
+}
+
+#selection {
+
+    float: left;
+    width: 50px;
+    height: 50px;
     background-color: aqua;
     text-decoration: none;
+    padding: 10px;
+
 }
+
+#selection:hover {
+    background-color: rgb(243, 204, 77);
+    border-style: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#selection_2 {
+
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(212, 162, 197);
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+#selection_2:hover {
+    background-color: rgb(166, 223, 183);
+    border-style: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#selection_3 {
+
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(112, 158, 158);
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+#selection_3:hover {
+    background-color: rgb(157, 126, 192);
+    border-style: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+.tune {
+
+    width: 50px;
+    height: auto;
+}
+
+option {
+
+    width: 50px;
+    height: 50px;
+    background-color: rgb(185, 240, 199);
+    border-radius: 50%;
+}
+
 
 songOne {
 
     background-color: #e9cc2a;
-    width: 90px;
-    height: 90px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }

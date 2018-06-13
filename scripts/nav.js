@@ -5,10 +5,6 @@ const fragment = document.createDocumentFragment()
 const navi = document.createElement ("nav")
 navi.className = "navbar"
 
-// const logo = document.createElement ("img")
-// logo.className = "logo"
-// logo.src = "https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/10987387_10152563567471574_4438801562388729078_n.jpg?_nc_cat=0&oh=0b2e07debde296c7a4a6995c46622891&oe=5B9509B5"
-// navi.appendChild(logo)
 
 const execSum = document.createElement ("a")
 execSum.className = "navLinks"

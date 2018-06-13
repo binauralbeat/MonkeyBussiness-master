@@ -1,0 +1,43 @@
+/* .playlist_1:hover {
+
+    -webkit-animation-name: dot;
+    -webkit-animation-duration: 120s;
+    animation-name: dot;
+    animation-duration: 120s;
+}
+
+@-webkit-keyframes dot {
+
+    5% {right: 5px;}
+}
+
+@keyframes dot {
+
+    5% {right: 5px;}
+}
+ */
+
+
+
+
+  @-webkit-keyframes bounce {
+      0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}
+      40% {-webkit-transform: translateY(-30px) }
+      60% {-webkit-transform: translateY(50px);}
+  }
+  @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+      0% {background-color: rgb(205, 120, 226); left:0px; top:0px;}
+      25% {background-color:rgb(238, 240, 118); left:200px; top:0px;}
+      50% {background-color:rgb(118, 240, 149); left:200px; top:200px;}
+      75% {background-color:  rgb(109, 231, 191); left:0px; top:200px;}
+      100% {background-color: rgb(117, 109, 231); left:0px; top:0px;}
+  }
+
+
+  .bounce {
+      -webkit-animation:bounce 1.5s infinite;
+      animation: bounce 1.5s infinite ;
+
+  }
+
