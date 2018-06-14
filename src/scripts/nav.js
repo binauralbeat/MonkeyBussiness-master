@@ -36,6 +36,12 @@ contact.href = "/contact/contact.html"
 contact.textContent = "CONTACT"
 navi.appendChild(contact)
 
+const login = document.createElement ("a")
+login.className = "login"
+login.href = "/login/login.html"
+login.textContent = "Login"
+navi.appendChild(login)
+
 
 /*const aboutTeam = document.createElement ("a")
 aboutTeam.href = "https://soundcloud.com/enkiisgod"
