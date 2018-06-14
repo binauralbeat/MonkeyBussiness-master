@@ -23,6 +23,18 @@
       "email": "\"sweetP@piddy.com\"",
       "message": "\"hey, guess what. I love you. sorry you had a bad evening. I'll give you scratchies and love on you all night\"",
       "id": 4
+    },
+    {
+      "username": "\"mest\"",
+      "email": "\"messiah\"",
+      "message": "\"message\"",
+      "id": 5
+    },
+    {
+      "username": "\"doggy\"",
+      "email": "\"dog\"",
+      "message": "\"dogs\"",
+      "id": 6
     }
   ],
   "albums": [
@@ -30,6 +42,26 @@
       "album-title": "south_robin_row",
       "date-released": "6-11-2018",
       "id": 1
+    }
+  ],
+  "admin": [
+    {
+      "username": "dan",
+      "email": "\"enki@enki.com\"",
+      "password": "earless",
+      "id": 1
+    },
+    {
+      "username": "\"Enki\"",
+      "email": "\"asdfasdf\"",
+      "password": "\"sdafasddf\"",
+      "id": 2
+    },
+    {
+      "username": "\"\"",
+      "email": "\"\"",
+      "password": "\"\"",
+      "id": 3
     }
   ]
 }
