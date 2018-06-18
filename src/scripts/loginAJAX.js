@@ -1,12 +1,13 @@
-$.ajax({
-    type: "GET",
-    url: "http://localhost:8088/admin",
-    data: {username: "", password: ""},
-    contentType: "application/json; charset=utf-8",
-    dataType: "xml",
-    success: OnSuccessCall,
-    error: OnErrorCall
-});
+$.ajax({ // post to JSON DB
+    url: "http://localhost:8088/admin", // url where to submit the request
+    method : "GET", // type of action POST
+    data : { // object
+        "username": (JSON.stringify(registerName)), // post registerName
+        "email": (JSON.stringify(registerEmail)), // post email
+        "password":(JSON.stringify(registerPassword))   }
+
+
+}).then(userID=> sessionStorage.setItem("userID", JSON.stringify(userID.id)))
 
 
 
@@ -28,16 +29,10 @@ if ($("#userName".val())=== data.username && $("#password".val())=== data.passwo
 
 
 
-
-
-.then(userID=> sessionStorage.setItem("userID", JSON.stringify(userID.id)))
-
-
-
 //clear fields after submission//
 $(function() {
     $("#clickSub").click(function() {
-        $(".inputFields").val('');
+        $(".inputFields").val("");
     });
   });
 
