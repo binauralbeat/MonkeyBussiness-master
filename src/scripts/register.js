@@ -25,7 +25,7 @@ $.ajax({ // post to JSON DB
 //clear fields after submission//
 $(function() {
     $("#clickSub_2").click(function() {
-        $(".inputFields").val('');
+        $(".inputFields").val("");
     });
   });
 

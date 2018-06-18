@@ -1,16 +1,16 @@
 $(document).ready(function() {
   let playing = false;
 
-  $('.playlist_1').click(function() {
+  $(".playlist_1").click(function() {
       $(this).toggleClass("down");
 
-      if (playing == false) {
-          document.getElementById('audio_1').play();
+      if (playing === false) {
+          document.getElementById("audio_1").play();
           playing = true;
           // $(this).text("stop sound");
 
       } else {
-        document.getElementById('audio_1').pause();
+        document.getElementById("audio_1").pause();
         playing = false;
         // $(this).text("restart sound");
       }
@@ -25,16 +25,16 @@ let audio = $("#audio_1");
 $(document).ready(function() {
   let playing_2 = false;
 
-  $('.playlist_2').click(function() {
+  $(".playlist_2").click(function() {
       $(this).toggleClass("down");
 
-      if (playing_2 == false) {
-          document.getElementById('audio_2').play();
+      if (playing_2 === false) {
+          document.getElementById("audio_2").play();
           playing_2 = true;
           // $(this).text("stop sound");
 
       } else {
-        document.getElementById('audio_2').pause();
+        document.getElementById("audio_2").pause();
         playing_2 = false;
         // $(this).text("restart sound");
       }
@@ -48,16 +48,16 @@ let audio_2 = $("#audio_2");
 $(document).ready(function() {
   let playing_3 = false;
 
-  $('.playlist_3').click(function() {
+  $(".playlist_3").click(function() {
       $(this).toggleClass("down");
 
-      if (playing_3 == false) {
-          document.getElementById('audio_3').play();
+      if (playing_3 === false) {
+          document.getElementById("audio_3").play();
           playing_3 = true;
           // $(this).text("stop sound");
 
       } else {
-        document.getElementById('audio_3').pause();
+        document.getElementById("audio_3").pause();
         playing_3 = false;
         // $(this).text("restart sound");
       }
