@@ -2,6 +2,18 @@
     box-sizing: border-box;
   }
 
+  .showIt {
+    display: hide;
+  }
+
+  body {
+    display: table-row;
+  }
+
+  .picture {
+    border-radius: 3%;
+  }
+
   /* Position the image container (needed to position the left and right arrows) */
   .container {
     position: relative;
@@ -15,6 +27,22 @@
     display: none;
 
 
+  }
+
+
+
+  #drop-area {
+    float: right;
+    width: 100px;
+    margin-right: 20%;
+    color: white;
+
+  }
+
+  #uploadPreview{
+    border:3px solid rgb(0, 255, 213);
+    height:200px;
+    width:200px;
   }
 
   /* Add a pointer when hovering over the thumbnail images */
@@ -63,9 +91,13 @@
   /* Container for image text */
   .caption-container {
     text-align: center;
-    background-color: #222;
+    background-color: black;
     padding: 2px 16px;
     color: white;
+  }
+
+  .full {
+    border-radius: 3%;
   }
 
   .row:after {
@@ -90,3 +122,10 @@
     opacity: 1;
   }
 
+
+  /* .thumb {
+    width: 200px;
+  /*   border: 5px solid #fff; */
+  /*   box-shadow: 0px 0px 10px 0px #888; */
+  /*   margin-left: 3px;
+    margin-right: 3px; */

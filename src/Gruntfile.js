@@ -5,9 +5,9 @@ module.exports = function (grunt) {
         watch: {
             scripts: {
                 files: [
-                    "./scripts/**/*.js",
-                    "./styles/**/*.css",
-                    "./index.html",
+                    "scripts/**/*.js",
+                    "styles/**/*.css",
+                    "index.html",
                     "!node_modules/**/*.js"
                 ],
                 tasks: ["eslint", "browserify", "copy"],
@@ -18,14 +18,14 @@ module.exports = function (grunt) {
         },
         eslint: {
             src: [
-                "./scripts/**/*.js",
+                "scripts/**/*.js",
                 "!node_modules/**/*.js"
             ]
         },
         browserify: {
             dist: {
                 files: {
-                    "../dist/bundle.js": ["scripts/**/*.js"]
+                    "./dist/bundle.js": ["scripts/**/*.js"]
                 }
             }
         },
@@ -33,9 +33,10 @@ module.exports = function (grunt) {
             main: {
               files: [
                 // includes files within path
-                {expand: true, src: ["index.html"], dest: "../dist", filter: "isFile"},
-                {expand: true, src: ["styles/*.css"], dest: "../dist/", filter: "isFile"},
-                {expand: true, src: ["styles/*.css"], dest: "../dist/", filter: "isFile"},
+                {expand: true, src: ["index.html"], dest: "./dist", filter: "isFile"},
+                {expand: true, src: ["styles/*.css"], dest: "./dist/", filter: "isFile"},
+                {expand: true, src: ["styles/*.css"], dest: "./dist/", filter: "isFile"},
+                {expand: true, src: ["styles/*.css"], dest: "./dist/", filter: "isFile"},
               ],
             },
           },

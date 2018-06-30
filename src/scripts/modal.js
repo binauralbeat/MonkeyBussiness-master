@@ -14,9 +14,14 @@ $(function() {
     })
 })
 
+// $(function() {
+    // $("#myBtnTwo").click(function() {
+        // $("#myModalTwo").toggleClass("modal")
+    // })
+// })
 $(function() {
-    $("#myBtnTwo").click(function() {
-        $("#myModalTwo").toggleClass("modal")
+    $("#myBtn_2").click(function() {
+        $("#myModal_2").toggleClass("modal")
     })
 })
 

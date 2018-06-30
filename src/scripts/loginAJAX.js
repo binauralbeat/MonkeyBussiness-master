@@ -15,7 +15,7 @@ $("#clickSub").click(function() { // click on <button class="clickSub"> to init 
 
 
 
-if ($("#userName".val())=== data.username && $("#password".val())=== data.password) {
+if ($("#userName".val())=== data.username && $("#email".val())=== data.password) {
 
 
 

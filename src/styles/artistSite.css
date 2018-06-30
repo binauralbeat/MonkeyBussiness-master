@@ -7,10 +7,18 @@ body{
     /* display: inline-block; */
     /* grid-auto-rows: auto; */
     padding-top: 40px;
-    width: 100%;
+
 
 
 }
+
+/* .loggedOut {
+    display: none;
+}
+
+.loggedIn {
+    display: inline;
+} */
 
 #nav {
 
@@ -79,6 +87,7 @@ body{
     size: 20%;
     max-block-size: 500px;
     max-width: 700px;
+    border-radius: 3%;
 
 }
 
