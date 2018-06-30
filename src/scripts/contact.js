@@ -7,18 +7,18 @@ console.log(userEmail) // console.log for varification
 let userMessage= $("#message").val()
 console.log(userMessage)
 
-sessionStorage.setItem("username", userName)
+// sessionStorage.setItem("username", userName)
 $.ajax({ // post to JSON DB
     url: "http://localhost:8088/users", // url where to submit the request
     method : "POST", // type of action POST
     data : { // object
-        "username": (JSON.stringify(userName)), // post userName
-        "email": (JSON.stringify(userEmail)), // post email
-        "message":(JSON.stringify(userMessage))
+        "username": (userName), // post userName
+        "email": (userEmail), // post email
+        "message":(userMessage)
    }
 
 
-}).then(userID=> sessionStorage.setItem("userID", JSON.stringify(userID.id)))
+})
 
 
 })

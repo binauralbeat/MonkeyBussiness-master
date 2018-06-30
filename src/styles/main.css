@@ -4,6 +4,21 @@ body {
 	display: flow-root;
 	}
 
+path:hover {
+
+	cursor: pointer;
+
+}
+
+ellipse:hover {
+	cursor: pointer;
+
+}
+
+circle:hover {
+	cursor: pointer;
+}
+
 	.title {
 		display: flex;
 		font-family: Arial, Helvetica, sans-serif;

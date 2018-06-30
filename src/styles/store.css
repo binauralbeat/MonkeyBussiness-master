@@ -15,6 +15,7 @@
 .bigContainer {
     position: absolute;
     margin: 10px;
+    padding: 5px;
 }
 
 #selection {
@@ -25,7 +26,11 @@
     background-color: aqua;
     text-decoration: none;
     padding: 10px;
+    border-radius: 10%;
 
+}
+#webglcanvas {
+    height: 20%;
 }
 
 #selection:hover {
@@ -50,6 +55,7 @@
     background-color: rgb(212, 162, 197);
     text-decoration: none;
     padding: 10px;
+    border-radius: 10%;
 
 }
 
@@ -67,6 +73,7 @@
     background-color: rgb(112, 158, 158);
     text-decoration: none;
     padding: 10px;
+    border-radius: 10%;
 
 }
 

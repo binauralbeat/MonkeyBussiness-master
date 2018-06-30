@@ -7,18 +7,18 @@ console.log(registerEmail) // console.log for varification
 let registerPassword= $("#registerPassword").val()
 console.log(registerPassword)
 
-sessionStorage.setItem("registerName", registerName)
+sessionStorage.setItem("adminName", registerName)
 $.ajax({ // post to JSON DB
     url: "http://localhost:8088/admin", // url where to submit the request
     method : "POST", // type of action POST
     data : { // object
-        "username": (JSON.stringify(registerName)), // post registerName
-        "email": (JSON.stringify(registerEmail)), // post email
-        "password":(JSON.stringify(registerPassword))
+        "username": ((registerName)), // post registerName
+        "email": ((registerEmail)), // post email
+        "password":((registerPassword))
    }
 
 
-}).then(userID=> sessionStorage.setItem("userID", JSON.stringify(userID.id)))
+}).then(adminID=> sessionStorage.setItem("adminID", JSON.stringify(adminID.id)))
 
 
 })

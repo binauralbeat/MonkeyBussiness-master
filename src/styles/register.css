@@ -17,7 +17,9 @@ body {
 .mainDiv {
     display: inline-table;
 }
-
+ .container_2 {
+   width: 113.5%;
+ }
 
 .container {
   padding: 20px;
@@ -32,13 +34,15 @@ body {
 }
 .container label,
 .container input,
-.container button {
+.container button,
+.container textarea {
   border: 0;
   margin-bottom: 3px;
   display: block;
   width: 100%;
 }
-.container input {
+.container input,
+.container textarea {
   height: 25px;
   /* line-height: 25px; */
   background: #fff;
@@ -66,8 +70,40 @@ body {
 }
 
 #clickSub {
-    color: black;
-    background-color: white;
+  font-size: 20px;
+  text-align: right;
+  color: white;
+  background-color: black;
+}
+#clickSub_2 {
+  font-size: 20px;
+  text-align: right;
+  color: white;
+  background-color: black;
+}
+#clickSub_3 {
+    font-size: 20px;
+    text-align: right;
+    color: white;
+    background-color: black;
+}
+
+#myBtn {
+  font-size: 20px;
+  text-align: right;
+
+}
+#myBtn_2 {
+  font-size: 20px;
+  text-align: right;
+  margin-top: -20px;
+
+}
+
+h2, label {
+  text-align: right;
+
+  /* margin-left: 50%; */
 }
 
 /* .titleBack {
