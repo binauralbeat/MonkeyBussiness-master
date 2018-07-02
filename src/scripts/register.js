@@ -18,7 +18,7 @@ $.ajax({ // post to JSON DB
    }
 
 
-}).then(adminID=> sessionStorage.setItem("adminID", JSON.stringify(adminID.id)))
+}).then(adminID=> sessionStorage.setItem("adminID",adminID.id))
 
 
 })

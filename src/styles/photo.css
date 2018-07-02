@@ -12,12 +12,14 @@
 
   .picture {
     border-radius: 3%;
+
   }
 
   /* Position the image container (needed to position the left and right arrows) */
   .container {
     position: relative;
-
+    margin-left: 15px;
+    margin-bottom: 10px;
     width: 65%;
     height: auto;
   }
@@ -110,6 +112,7 @@
   .column {
     float: left;
     width: 16.66%;
+
   }
 
   /* Add a transparency effect for thumnbail images */

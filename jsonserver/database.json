@@ -12,6 +12,24 @@
       "email": "k@k.com",
       "password": "k",
       "id": 2
+    },
+    {
+      "username": "Bobby",
+      "email": "lakdf",
+      "password": "ears",
+      "id": 3
+    },
+    {
+      "username": "Paige",
+      "email": "",
+      "password": "",
+      "id": 4
+    },
+    {
+      "username": "Bill",
+      "email": "",
+      "password": "",
+      "id": 5
     }
   ]
 }

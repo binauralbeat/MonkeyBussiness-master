@@ -26,7 +26,7 @@
       60% {-webkit-transform: translateY(50px);}
   }
   @keyframes bounce {
-      0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+      0%, 20%, 50%, 80%, 100% {transform: skew(20deg);}
       0% {background-color: rgb(205, 120, 226); left:0px; top:0px;}
       25% {background-color:rgb(238, 240, 118); left:200px; top:0px;}
       50% {background-color:rgb(118, 240, 149); left:200px; top:200px;}
@@ -38,6 +38,9 @@
   .bounce {
       -webkit-animation:bounce 1.5s infinite;
       animation: bounce 1.5s infinite ;
+
+      border-radius: 50%;
+
 
   }
 

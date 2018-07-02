@@ -1,12 +1,17 @@
-$("#selection").click(function() {
+$("#one").click(function() {
+    $(this).toggleClass("bounce")
+
+})
+
+$("#two").click(function() {
     $(this).toggleClass("bounce")
 })
 
-$("#selection_2").click(function() {
+$("#three").click(function() {
     $(this).toggleClass("bounce")
 })
 
-$("#selection_3").click(function() {
+$("#four").click(function() {
     $(this).toggleClass("bounce")
 })
 

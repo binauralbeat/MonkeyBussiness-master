@@ -90,14 +90,19 @@ body {
 
 #myBtn {
   font-size: 20px;
-  text-align: right;
+  text-align: left;
 
 }
 #myBtn_2 {
   font-size: 20px;
-  text-align: right;
+  text-align: left;
   margin-top: -20px;
 
+}
+
+#myLogbtn {
+  font-size: 20px;
+  text-align: left;
 }
 
 h2, label {

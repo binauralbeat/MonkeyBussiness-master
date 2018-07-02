@@ -67,3 +67,26 @@ $(document).ready(function() {
 
 let audio_3 = $("#audio_3");
   audio_3.volume = 0.5;
+
+  $(document).ready(function() {
+  let playing_4 = false;
+
+  $(".playlist_4").click(function() {
+      $(this).toggleClass("down");
+
+      if (playing_4 === false) {
+          document.getElementById("audio_4").play();
+          playing_4 = true;
+          // $(this).text("stop sound");
+
+      } else {
+        document.getElementById("audio_4").pause();
+        playing_4 = false;
+        // $(this).text("restart sound");
+      }
+
+  });
+});
+
+let audio_4 = $("#audio_4");
+  audio_4.volume = 0.5;

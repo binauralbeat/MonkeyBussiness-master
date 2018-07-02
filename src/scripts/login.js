@@ -1,3 +1,6 @@
+$("#logCont").hide()
+
+
 
 $("#clickSub").click(function() { // click on <button class="clickSub"> to init function
 
@@ -26,25 +29,30 @@ adminID.forEach(admin => {
 })
 
 
+// $(function() {
+//     $(".loggedIn").click(function() {
+//       $(".showIt").toggle();
+//     });
+//   });
 $(function() {
-    $(".loggedIn").click(function() {
-      $(".showIt").toggle();
+    $("#myLogbtn").click(function() {
+      $("#logCont").toggle();
     });
   });
 
 
-// $(function () {
-//     if (sessionStorage.getItem("adminName") === !(null)){
-//         $("#drop-area").addClass("loggedIn");
+$(function () {
+    if (sessionStorage.getItem("adminName".val()) === !(null)){
+        $(".showIt").show();
 
-//     }
-//     else (sessionStorage.getItem("adminName") === (null)); {
-//         $("#drop-area").addClass("loggedOut");}
-//     })
+    }
+    else (sessionStorage.getItem("adminName".val()) === (null)); {
+        $(".showIt").hide();}
+    })
 
 
-//     $(function() {
-//         $("#clickSub").click(function() {
-//             $(".inputFields").val("");
-//         });
-//     });
+    $(function() {
+        $("#clickSub").click(function() {
+            $(".inputFields").val("");
+        });
+    });
