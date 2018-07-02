@@ -18,7 +18,7 @@
     padding: 5px;
 }
 
-#selection {
+.selection {
 
     float: left;
     width: 50px;
@@ -27,27 +27,28 @@
     text-decoration: none;
     padding: 10px;
     border-radius: 10%;
+    transform: skew(20deg);
 
 }
 #webglcanvas {
     height: 20%;
 }
 
-#selection:hover {
+.selection:hover {
     background-color: rgb(243, 204, 77);
     border-style: none;
     border-radius: 50%;
     cursor: pointer;
 }
 
-#selection:active {
+.selection:active {
     background-color: rgb(243, 204, 77);
     border-style: none;
     border-radius: 50%;
     cursor: pointer;
 }
 
-#selection_2 {
+.selection_2 {
 
     float: left;
     width: 50px;
@@ -56,16 +57,16 @@
     text-decoration: none;
     padding: 10px;
     border-radius: 10%;
-
+    transform: skew(20deg);
 }
 
-#selection_2:hover {
+.selection_2:hover {
     background-color: rgb(166, 223, 183);
     border-style: none;
     border-radius: 50%;
     cursor: pointer;
 }
-#selection_3 {
+.selection_3 {
 
     float: left;
     width: 50px;
@@ -74,11 +75,32 @@
     text-decoration: none;
     padding: 10px;
     border-radius: 10%;
+    transform: skew(20deg);
 
 }
 
-#selection_3:hover {
+.selection_3:hover {
     background-color: rgb(157, 126, 192);
+    border-style: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.selection_4 {
+
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(225, 253, 159);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10%;
+    transform: skew(20deg);
+
+}
+
+.selection_4:hover {
+    background-color: rgb(230, 171, 227);
     border-style: none;
     border-radius: 50%;
     cursor: pointer;
